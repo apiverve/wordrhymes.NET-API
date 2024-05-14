@@ -1,0 +1,38 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>APIVerve.API.WordRhymes</Title>
+    <Version>1.0.0</Version>
+    <Authors>APIVerve</Authors>
+    <Company>APIVerve</Company>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageRequireLicenseAcceptance>False</PackageRequireLicenseAcceptance>
+    <PackageReadmeFile>Readme.md</PackageReadmeFile>
+    <PackageProjectUrl>https://apiverve.com/marketplace/api/wordrhymes</PackageProjectUrl>
+    <SignAssembly>False</SignAssembly>
+    <Description>Word Rhymes is a simple tool for getting word rhymes. It returns a list of rhyming words.</Description>
+    <RepositoryUrl>https://github.com/apiverve/wordrhymes-NET</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>word rhymes; word rhymes generator; word rhymes api; word rhymes tool; word rhymes software; word rhymes service; word rhymes library; word rhymes sdk; word rhymes code; word rhymes script; word rhymes program; word rhymes application; word rhymes app; word rhymes utility; word rhymes helper; word rhymes helper tool; word rhymes helper software; word rhymes helper service; word rhymes helper library; word rhymes helper sdk; word rhymes helper code; word rhymes helper script; word rhymes helper program; word rhymes helper application; word rhymes helper app; word rhymes helper tool; word rhymes helper utility; word rhymes helper</PackageTags>
+    <Copyright>©2024 APIVerve. All Rights Reserved</Copyright>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="LICENSE">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Update="Readme.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
