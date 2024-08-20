@@ -70,7 +70,7 @@ Using the API client, you can perform requests to the API.
 ###### Define Query
 
 ```
-var queryOptions = new wordrhymesQueryOptions {
+var queryOptions = new RhymingWordsQueryOptions {
   word = "blue"
 };
 ```
@@ -198,7 +198,8 @@ if(response.error != null) {
         "word": "loux"
       }
     ]
-  }
+  },
+  "code": 200
 }
 ```
 
